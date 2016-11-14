@@ -13,7 +13,7 @@ describe('Prime', () => {
     assert(isPrime(6) === false)
   })
 
-  it('should generate array of from start to end of input range', () => {
+  it('should generate array of input range from start to end', () => {
     assert.deepEqual(generatePrime(2, 10), [2, 3, 5, 7])
     assert.deepEqual(generatePrime(2, 2), [2])
     assert.deepEqual(generatePrime(11, 17), [11, 13, 17])
