@@ -1,0 +1,27 @@
+{
+  "name": "example-tdd-js",
+  "version": "1.0.0",
+  "description": "Learning tdd in javascript resources for starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./src/**/*.spec.js --compilers js:babel-register; exit 0",
+    "test-watch": "mocha --watch ./src/**/*.spec.js --compilers js:babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zugarzeeker/example-tdd-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zugarzeeker/example-tdd-js/issues"
+  },
+  "homepage": "https://github.com/zugarzeeker/example-tdd-js#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "mocha": "^3.1.2",
+    "power-assert": "^1.4.2"
+  }
+}
