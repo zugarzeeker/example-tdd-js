@@ -11,8 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/zugarzeeker/example-tdd-js.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Supanut Apikulvanich <supanut.overload@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/zugarzeeker/example-tdd-js/issues"
   },
