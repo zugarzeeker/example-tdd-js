@@ -28,23 +28,5 @@
     "mocha": "^3.1.2",
     "nyc": "^10.0.0",
     "power-assert": "^1.4.2"
-  },
-  "nyc": {
-    "include": [
-      "src"
-    ],
-    "exclude": [
-      "src/**/*.spec.js"
-    ],
-    "reporter": [
-      "lcov",
-      "text"
-    ],
-    "require": [
-      "babel-register"
-    ],
-    "cache": true,
-    "sourceMap": false,
-    "instrument": false
   }
 }
