@@ -10,7 +10,7 @@
 [license]: https://opensource.org/licenses/MIT
 [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
 
-Learning tdd in javascript resources for starter
+Learning TDD in JavaScript resources for starter.
 
 ## Usage
 - `npm install`

@@ -1,7 +1,7 @@
 {
   "name": "example-tdd-js",
   "version": "1.0.0",
-  "description": "Learning tdd in javascript resources for starter",
+  "description": "Learning TDD in JavaScript resources for starter.",
   "main": "index.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test nyc --all mocha ./src/**/*.spec.js --compilers js:babel-register",
